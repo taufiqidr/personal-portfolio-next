@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -13,12 +12,6 @@ const picsum = () => `https://picsum.photos/500?grayscale`;
 export default function Home() {
   return (
     <div>
-      <Head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/logo2.png" />
-        <title>Taufiqurrahman Idrus | Full-stack web developer</title>
-      </Head>
       <section
         id="welcome"
         className="min-h-[calc(100vh-4rem)] bg-black text-white flex md:flex-row flex-col justify-center"
