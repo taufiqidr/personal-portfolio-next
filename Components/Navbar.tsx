@@ -15,6 +15,7 @@ function Navbar() {
         </Link>
         <button
           id="hamburger-button"
+          name="hamburger-button"
           className={`relative h-8 w-8 cursor-pointer text-3xl md:hidden ${
             mobileMenu ? "toggle-btn" : ""
           }`}

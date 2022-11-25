@@ -18,15 +18,15 @@ const Projects = () => {
       </div>
       <div className="flex justify-center flex-col sm:flex-row sm:justify-evenly space-y-4 sm:space-y-0">
         <div className="bg-white text-black rounded-xl mx-4 sm:w-72 h-96 shadow-md shadow-white">
-          <div className="rounded-t-xl h-40 border-b">
+          <div className="rounded-t-xl h-40 border-b"></div>
+          <div className="text-left">
             <Link
               href="https://cuapan.github.io/"
               className=""
               target={"_blank"}
-            ></Link>
-          </div>
-          <div className="text-left">
-            <p className="font-semibold underline m-2">Cuapan App</p>
+            >
+              <p className="font-semibold underline m-2">Cuapan App</p>{" "}
+            </Link>
             <p className="font-base m-2">
               A Twitter-like social media app. This is my first project that I
               developed with the MERN stack. App is build with Vite and deployed
@@ -36,17 +36,17 @@ const Projects = () => {
           </div>
         </div>
         <div className="bg-white text-black rounded-xl mx-4 sm:w-72 h-96 shadow-md shadow-white">
-          <div className="rounded-t-xl h-40 border-b">
+          <div className="rounded-t-xl h-40 border-b"></div>
+          <div className="text-left">
             <Link
               href="https://colab.research.google.com/drive/10xa9-qA4rYnIhtTL8QCOAX9ImNKj1Twy?usp=sharing"
               className=""
               target={"_blank"}
-            ></Link>
-          </div>
-          <div className="text-left">
-            <p className="font-semibold underline m-2">
-              Apple Plant Disease Identification
-            </p>
+            >
+              <p className="font-semibold underline m-2">
+                Apple Plant Disease Identification
+              </p>
+            </Link>
             <p className="font-base m-2">
               In this project I write a ML model that can identify a disease in
               Manalagi apple plant. The model is written in Python with
@@ -56,21 +56,22 @@ const Projects = () => {
           </div>
         </div>
         <div className="bg-white text-black rounded-xl mx-4 sm:w-72 h-96 shadow-md shadow-white">
-          <div className="rounded-t-xl h-40 border-b">
+          <div className="rounded-t-xl h-40 border-b"></div>
+          <div className="text-left">
             <Link
-              href="https://taufiqidr.github.io/"
+              href="https://taufiqidr.vercel.app/"
               className=""
               target={"_blank"}
-            ></Link>
-          </div>
-          <div className="text-left">
-            <p className="font-semibold underline m-2">
-              Personal portfolio web page
-            </p>
+            >
+              {" "}
+              <p className="font-semibold underline m-2">
+                Personal portfolio web page
+              </p>
+            </Link>
             <p className="font-base m-2">
               This is the very page you are seeing this content right now. This
-              site is developed using React and Bootstrap, build with Vite, and
-              deployed to GitHub Pages.
+              site is build with Next JS and Tailwind CSS and deployed to
+              Vercel.
             </p>
             <strong className="font-bold m-2">Status: Live 🔴</strong>
           </div>
