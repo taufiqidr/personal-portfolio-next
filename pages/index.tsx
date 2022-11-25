@@ -9,7 +9,7 @@ import {
   FaEnvelope,
   FaGithub,
 } from "react-icons/fa";
-const picsum = () => "https://picsum.photos/500?grayscale";
+const picsum = () => `https://picsum.photos/500?grayscale`;
 export default function Home() {
   return (
     <div>
