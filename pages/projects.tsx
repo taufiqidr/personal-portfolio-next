@@ -24,6 +24,7 @@ const Projects = () => {
               href="https://cuapan.github.io/"
               className=""
               target={"_blank"}
+              aria-label="link to cuapan app"
             >
               <p className="font-semibold underline m-2">Cuapan App</p>{" "}
             </Link>
@@ -42,6 +43,7 @@ const Projects = () => {
               href="https://colab.research.google.com/drive/10xa9-qA4rYnIhtTL8QCOAX9ImNKj1Twy?usp=sharing"
               className=""
               target={"_blank"}
+              aria-label="link to Apple Plant Disease Identification project"
             >
               <p className="font-semibold underline m-2">
                 Apple Plant Disease Identification
@@ -62,8 +64,8 @@ const Projects = () => {
               href="https://taufiqidr.vercel.app/"
               className=""
               target={"_blank"}
+              aria-label="link to Apple portfolio page"
             >
-              {" "}
               <p className="font-semibold underline m-2">
                 Personal portfolio web page
               </p>

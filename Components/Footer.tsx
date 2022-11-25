@@ -25,6 +25,7 @@ const Footer = () => {
             href={"https://github.com/taufiqidr"}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="link to github"
           >
             <FaGithub />
           </Link>
@@ -35,6 +36,7 @@ const Footer = () => {
             href={"https://www.linkedin.com/in/taufiqidr/"}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="link to linkedin"
           >
             <FaLinkedin />
           </Link>
@@ -45,6 +47,7 @@ const Footer = () => {
             href={"https://twitter.com/taufiqidr"}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="link to twitter"
           >
             <FaTwitter />
           </Link>
@@ -55,6 +58,7 @@ const Footer = () => {
             href={"https://www.instagram.com/taufiqidr/"}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="link to instagram"
           >
             <FaInstagram />
           </Link>
@@ -65,6 +69,7 @@ const Footer = () => {
             href={"https://www.facebook.com/taufiqidr/"}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="link to facebook"
           >
             <FaFacebook />
           </Link>
@@ -75,6 +80,7 @@ const Footer = () => {
             href={"mailto:taufiqmck@gmail.com"}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="send email"
           >
             <FaEnvelope />
           </Link>
@@ -84,12 +90,17 @@ const Footer = () => {
         <Link
           href="https://www.flaticon.com/free-icons/t"
           className="text-light text-decoration-none"
+          aria-label="flaticon link"
         >
           T icons created by Freepik - Flaticon
         </Link>
       </p>
       <div className="flex flex-col ">
-        <Link href="https://reactjs.org/" className="text-center text-md">
+        <Link
+          href="https://reactjs.org/"
+          className="text-center text-md"
+          aria-label="link to react js"
+        >
           Made with React + Taildwind CSS
           <div className="flex flex-row justify-center my-3 gap-x-3">
             {<FaReact />} {<FaPlus />}{" "}

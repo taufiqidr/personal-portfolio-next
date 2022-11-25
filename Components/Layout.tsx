@@ -8,6 +8,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Portfolio page by Taufiqurrahman Idrus"
+        />
         <link rel="icon" href="/logo2.png" />
         <title>Taufiqurrahman Idrus | Full-stack web developer</title>
       </Head>

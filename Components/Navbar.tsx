@@ -10,12 +10,14 @@ function Navbar() {
         <Link
           className="text-white text-3xl flex items-center hover:text-blue-500"
           href="/"
+          aria-label="link to home"
         >
           @taufiqidr
         </Link>
         <button
           id="hamburger-button"
           name="hamburger-button"
+          aria-label="hamburger-button"
           className={`relative h-8 w-8 cursor-pointer text-3xl md:hidden ${
             mobileMenu ? "toggle-btn" : ""
           }`}
@@ -28,17 +30,29 @@ function Navbar() {
         <nav className="items-center sm:flex hidden">
           <ul className="flex flex-row text-white items-center text-xl space-x-8">
             <li className="">
-              <Link className="hover:text-blue-500" href="/about">
+              <Link
+                className="hover:text-blue-500"
+                href="/about"
+                aria-label="link to about page"
+              >
                 About
               </Link>
             </li>
             <li className="">
-              <Link className="hover:text-blue-500" href="/blog">
+              <Link
+                className="hover:text-blue-500"
+                href="/blog"
+                aria-label="link to blog page"
+              >
                 Blog
               </Link>
             </li>
             <li className="">
-              <Link className="hover:text-blue-500" href="/projects">
+              <Link
+                className="hover:text-blue-500"
+                href="/projects"
+                aria-label="link to projects page"
+              >
                 Projects
               </Link>
             </li>
@@ -60,18 +74,21 @@ function Navbar() {
             <Link
               href="/about"
               className="w-full py-6 text-center hover:opacity-90"
+              aria-label="link to about page"
             >
               About
             </Link>
             <Link
               href="/blog"
               className="w-full py-6 text-center hover:opacity-90"
+              aria-label="link to blog page"
             >
               Blog
             </Link>
             <Link
               href="/projects"
               className="w-full py-6 text-center hover:opacity-90"
+              aria-label="link to projects page"
             >
               Projects
             </Link>

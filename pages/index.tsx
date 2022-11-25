@@ -27,15 +27,27 @@ export default function Home() {
           </p>
           <p className="md:text-3xl text-2xl">
             Welcome to my website. Check out{" "}
-            <Link href={"/projects"} className={"text-blue-500"}>
+            <Link
+              href={"/projects"}
+              className={"text-blue-500"}
+              aria-label="link to projects page"
+            >
               my projects
             </Link>
             , read my{" "}
-            <Link href={"/blog"} className={"text-blue-500"}>
+            <Link
+              href={"/blog"}
+              className={"text-blue-500"}
+              aria-label="link to blog page"
+            >
               blog
             </Link>{" "}
             or learn more{" "}
-            <Link href={"/about"} className={"text-blue-500"}>
+            <Link
+              href={"/about"}
+              className={"text-blue-500"}
+              aria-label="link to about page"
+            >
               about me
             </Link>
           </p>
@@ -72,6 +84,7 @@ export default function Home() {
                 href={"https://github.com/taufiqidr"}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="link to github"
               >
                 <FaGithub />
               </Link>
@@ -82,6 +95,7 @@ export default function Home() {
                 href={"https://www.linkedin.com/in/taufiqidr/"}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="link to linkedin"
               >
                 <FaLinkedin />
               </Link>
@@ -92,6 +106,7 @@ export default function Home() {
                 href={"https://twitter.com/taufiqidr"}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="link to twitter"
               >
                 <FaTwitter />
               </Link>
@@ -102,6 +117,7 @@ export default function Home() {
                 href={"https://www.instagram.com/taufiqidr/"}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="link to instagram"
               >
                 <FaInstagram />
               </Link>
@@ -112,6 +128,7 @@ export default function Home() {
                 href={"https://www.facebook.com/taufiqidr/"}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="link to facebook"
               >
                 <FaFacebook />
               </Link>
@@ -122,6 +139,7 @@ export default function Home() {
                 href={"mailto:taufiqmck@gmail.com"}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="send email"
               >
                 <FaEnvelope />
               </Link>
