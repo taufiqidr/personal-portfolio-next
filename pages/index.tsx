@@ -16,14 +16,15 @@ export default function Home() {
         id="welcome"
         className="min-h-[calc(100vh-4rem)] bg-black text-white flex md:flex-row flex-col justify-center"
       >
-        <div className="space-y-5 mx-4 my-auto md:w-1/2 md:text-start text-justify">
+        <div className="space-y-5 mx-4 my-auto md:w-1/2 md:text-start ">
           <h1 className="sm:text-7xl text-5xl font-mono text-center">
             Hello World
           </h1>
-          <p className="md:text-3xl text-2xl">
+          <p className="md:text-3xl text-2xl text-justify">
             My name is Taufiqurrahman Idrus. I am a full-stack web developer. I
-            mainly use React js and Tailwind CSS for the frontend and Express/Go
-            for the Backend.
+            have a degree in Computer Science (S.Kom). I mainly use Next js with
+            Typescript and Tailwind CSS for the front-end. For the back-end I
+            use Prisma and tRPC.
           </p>
           <p className="md:text-3xl text-2xl">
             Welcome to my website. Check out{" "}
@@ -50,6 +51,7 @@ export default function Home() {
             >
               about me
             </Link>
+            . My contact info are down below
           </p>
         </div>
         <div className="w-1/2 mx-4 my-auto h-1/2 hidden md:block">

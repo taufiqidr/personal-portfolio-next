@@ -25,10 +25,10 @@ const About = () => {
           <p className="sm:text-xl text-base text-justify">
             I am a fresh graduate with a bachelor&apos;s degree in Computer
             Science (S.Kom) from UIN Maulana Malik Ibrahim Malang. I love to
-            code and solve problems. My main interest is in web development,
-            more specifically in backend service. I mainly code in Javascript
-            with Express framework for backend development. I am actively
-            looking for a job to start my career in the IT world.
+            code and solve problems. My main interest is in web development. I
+            can do frontend as well as backend development. I mainly use Next js
+            framework with Typescript. I am actively looking for a job to start
+            my career in the IT world.
           </p>
         </div>
       </section>
@@ -56,7 +56,7 @@ const About = () => {
             <div className="text-center space-y-1">
               <p className="font-semibold underline">Frequently Used</p>
               <ul className="">
-                <li>Javascript</li>
+                <li>Javascript/Typescript</li>
                 <li>Python</li>
               </ul>
               <p className="font-semibold underline">Rarely Used</p>
@@ -77,16 +77,15 @@ const About = () => {
             <div className="text-center space-y-1">
               <p className="font-semibold underline">Frequently Used</p>
               <ul className="">
-                <li>React JS</li>
-                <li>Express JS</li>
-                <li>Bootstrap</li>
+                <li>Next JS</li>
                 <li>Tailwind CSS</li>
+                <li>Prisma</li>
+                <li>tRPC</li>
               </ul>
               <p className="font-semibold underline">Rarely Used</p>
               <ul className="">
                 <li>Keras/Tensorflow</li>
                 <li>CodeIgniter</li>
-                <li>Laravel</li>
               </ul>
             </div>
           </div>

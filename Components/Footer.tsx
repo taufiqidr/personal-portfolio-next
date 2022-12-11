@@ -101,14 +101,21 @@ const Footer = () => {
           className="text-center text-md"
           aria-label="link to react js"
         >
-          Made with React + Taildwind CSS
+          Made with Next Js + Taildwind CSS
           <div className="flex flex-row justify-center my-3 gap-x-3">
-            {<FaReact />} {<FaPlus />}{" "}
+            <Image
+              src="/Nextjs-logo.svg"
+              alt=""
+              height={"40"}
+              width={"40"}
+              className={"text-white"}
+            />
+            {<FaPlus />}
             <Image
               src="/tailwind.svg"
               alt=""
-              height={"20"}
-              width={"20"}
+              height={"40"}
+              width={"40"}
               className={"text-white"}
             />
           </div>
