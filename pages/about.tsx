@@ -1,8 +1,9 @@
 import Image from "next/image";
 import React from "react";
-const me = () =>
-  "https://firebasestorage.googleapis.com/v0/b/mynotes-taufiqidr.appspot.com/o/IMG_20220607_113010.jpg?alt=media&token=317d7603-963c-4ee8-a66f-ba54c5fbda08";
+
 const About = () => {
+  const me = () =>
+    "https://firebasestorage.googleapis.com/v0/b/mynotes-taufiqidr.appspot.com/o/IMG_20220607_113010.jpg?alt=media&token=317d7603-963c-4ee8-a66f-ba54c5fbda08";
   return (
     <>
       <section

@@ -14,7 +14,7 @@ import {
 const Footer = () => {
   return (
     <footer
-      className="bottom-0 z-10 bg-slate-700 text-white flex flex-col items-center gap-y-3"
+      className="static bottom-0 z-10 bg-slate-700 text-white flex flex-col items-center gap-y-3"
       id="footer"
     >
       <p className="text-base mt-3">Made by Taufiqurrahman Idrus &copy; 2022</p>

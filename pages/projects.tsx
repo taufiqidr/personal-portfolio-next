@@ -1,82 +1,166 @@
 import Link from "next/link";
-
+import { BsArrowUpRight } from "react-icons/bs";
 const Projects = () => {
   return (
     <section
       id="projects"
-      className="bg-black h-auto min-h-[calc(100vh-4rem)] text-white scroll-mt-16  flex flex-col justify-center mx-4"
+      className="bg-black min-h-screen text-white flex flex-col mx-4"
     >
-      <div className="mx-4 mb-4 justify-center ">
-        <h1 className="text-5xl font-bold text-center sm:mb-10 mb-4">
-          Projects
-        </h1>
-        <p className="text-xl text-center">
-          I have worked with a number of projects. Mostly are a web page that I
-          build on my own. Some of them are live and some are still in
-          development.
-        </p>
-      </div>
-      <div className="flex justify-center flex-col sm:flex-row sm:justify-evenly space-y-4 sm:space-y-0">
-        <div className="bg-white text-black rounded-xl mx-4 sm:w-72 h-96 shadow-md shadow-white">
-          <div className="rounded-t-xl h-40 border-b"></div>
-          <div className="text-left">
-            <Link
-              href="https://cuapan.github.io/"
-              className=""
-              target={"_blank"}
-              aria-label="link to cuapan app"
+      <h1 className="text-5xl font-bold text-center my-4">Projects</h1>
+      <div className="grid sm:grid-cols-3 grid-cols-1 gap-4">
+        <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700 ">
+          <Link
+            href={"https://taufiqidr.vercel.app/"}
+            target="_blank"
+            aria-label="A link to my personal website"
+          >
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:underline">
+              taufiqidr.vercel.app
+            </h5>
+          </Link>
+          <p className="mt-3 font-normal text-gray-700 dark:text-gray-400">
+            My personal website
+          </p>
+          <Link
+            href={"https://github.com/taufiqidr/personal-portfolio-next"}
+            target="_blank"
+            aria-label="A link to my personal website source code"
+          >
+            <button
+              type="button"
+              className="items-center mt-3 border flex gap-x-3 text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
             >
-              <p className="font-semibold underline m-2">Cuapan App</p>{" "}
+              Source Code
+              <BsArrowUpRight />
+            </button>
+          </Link>
+        </div>
+        <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700 ">
+          <Link
+            href={"https://tokofication.vercel.app/"}
+            target="_blank"
+            aria-label="A link to tokofication app"
+          >
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:underline">
+              Tokofication
+            </h5>
+          </Link>
+          <p className="mt-3 font-normal text-gray-700 dark:text-gray-400">
+            A fake marketplace app
+          </p>
+          <Link
+            href={"https://github.com/taufiqidr/tokofication-t3"}
+            target="_blank"
+            aria-label="A link to tokofication app source code"
+          >
+            <button
+              type="button"
+              className="items-center mt-3 border flex gap-x-3 text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+            >
+              Source Code
+              <BsArrowUpRight />
+            </button>
+          </Link>
+        </div>
+        <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700 ">
+          <Link
+            href={"https://cuapan.github.io/"}
+            target="_blank"
+            aria-label="A link to cuapan v1 app"
+          >
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:underline">
+              Cuapan V1
+            </h5>
+          </Link>
+          <p className="mt-3 font-normal text-gray-700 dark:text-gray-400">
+            A Twitter clone app made with the MERN stack
+          </p>
+          <div className="flex gap-x-3">
+            <Link
+              href={"https://github.com/cuapan/cuapan.github.io"}
+              target="_blank"
+              aria-label="A link to cuapan v1 app frontend source code"
+            >
+              <button
+                type="button"
+                className="items-center mt-3 border flex gap-x-3 text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+              >
+                Frontend Source Code
+                <BsArrowUpRight />
+              </button>
             </Link>
-            <p className="font-base m-2">
-              A Twitter-like social media app. This is my first project that I
-              developed with the MERN stack. App is build with Vite and deployed
-              to Github pages.
-            </p>
-            <strong className="font-bold m-2 my-auto">Status: Live 🔴</strong>
+            <Link
+              href={"https://github.com/taufiqidr/cuapan-backend"}
+              target="_blank"
+              aria-label="A link to cuapan v1 app backend source code"
+            >
+              <button
+                type="button"
+                className="items-center mt-3 border flex gap-x-3 text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+              >
+                Backend Source Code
+                <BsArrowUpRight />
+              </button>
+            </Link>
           </div>
         </div>
-        <div className="bg-white text-black rounded-xl mx-4 sm:w-72 h-96 shadow-md shadow-white">
-          <div className="rounded-t-xl h-40 border-b"></div>
-          <div className="text-left">
-            <Link
-              href="https://colab.research.google.com/drive/10xa9-qA4rYnIhtTL8QCOAX9ImNKj1Twy?usp=sharing"
-              className=""
-              target={"_blank"}
-              aria-label="link to Apple Plant Disease Identification project"
+        <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700 ">
+          <Link
+            href={"https://taufiqidr.vercel.app/"}
+            target="_blank"
+            aria-label="A link to cuapan v2 app"
+          >
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:underline">
+              Cuapan V2
+            </h5>
+          </Link>
+          <p className="mt-3 font-normal text-gray-700 dark:text-gray-400">
+            A better Twitter clone app made with the T3 stack
+          </p>
+          <Link
+            href={"https://github.com/taufiqidr/cuapan-t3"}
+            target="_blank"
+            aria-label="A link to cuapan v2 app source code"
+          >
+            <button
+              type="button"
+              className="items-center mt-3 border flex gap-x-3 text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
             >
-              <p className="font-semibold underline m-2">
-                Apple Plant Disease Identification
-              </p>
-            </Link>
-            <p className="font-base m-2">
-              In this project I write a ML model that can identify a disease in
-              Manalagi apple plant. The model is written in Python with
-              Tensorflow and Keras as the framework.
-            </p>
-            <strong className="font-bold m-2">Status: Live 🔴</strong>
-          </div>
+              Source Code
+              <BsArrowUpRight />
+            </button>
+          </Link>
         </div>
-        <div className="bg-white text-black rounded-xl mx-4 sm:w-72 h-96 shadow-md shadow-white">
-          <div className="rounded-t-xl h-40 border-b"></div>
-          <div className="text-left">
-            <Link
-              href="https://taufiqidr.vercel.app/"
-              className=""
-              target={"_blank"}
-              aria-label="link to Apple portfolio page"
+        <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700 ">
+          <Link
+            href={
+              "https://colab.research.google.com/drive/10xa9-qA4rYnIhtTL8QCOAX9ImNKj1Twy?usp=sharing"
+            }
+            target="_blank"
+            aria-label="A link my thesis project"
+          >
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:underline">
+              Thesis Project
+            </h5>
+          </Link>
+          <p className="mt-3 font-normal text-gray-700 dark:text-gray-400">
+            A CNN model for identifying disease in apple leaves
+          </p>
+          <Link
+            href={
+              "https://colab.research.google.com/drive/10xa9-qA4rYnIhtTL8QCOAX9ImNKj1Twy?usp=sharing"
+            }
+            target="_blank"
+            aria-label="A link my thesis project"
+          >
+            <button
+              type="button"
+              className="items-center mt-3 border flex gap-x-3 text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
             >
-              <p className="font-semibold underline m-2">
-                Personal portfolio web page
-              </p>
-            </Link>
-            <p className="font-base m-2">
-              This is the very page you are seeing this content right now. This
-              site is build with Next JS and Tailwind CSS and deployed to
-              Vercel.
-            </p>
-            <strong className="font-bold m-2">Status: Live 🔴</strong>
-          </div>
+              Source Code
+              <BsArrowUpRight />
+            </button>
+          </Link>
         </div>
       </div>
     </section>
