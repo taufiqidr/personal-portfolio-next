@@ -64,49 +64,7 @@ const Projects = () => {
         </div>
         <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700 ">
           <Link
-            href={"https://cuapan.github.io/"}
-            target="_blank"
-            aria-label="A link to cuapan v1 app"
-          >
-            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:underline">
-              Cuapan V1
-            </h5>
-          </Link>
-          <p className="mt-3 font-normal text-gray-700 dark:text-gray-400">
-            A Twitter clone app made with the MERN stack
-          </p>
-          <div className="flex gap-x-3">
-            <Link
-              href={"https://github.com/cuapan/cuapan.github.io"}
-              target="_blank"
-              aria-label="A link to cuapan v1 app frontend source code"
-            >
-              <button
-                type="button"
-                className="items-center mt-3 border flex gap-x-3 text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
-              >
-                Frontend Source Code
-                <BsArrowUpRight />
-              </button>
-            </Link>
-            <Link
-              href={"https://github.com/taufiqidr/cuapan-backend"}
-              target="_blank"
-              aria-label="A link to cuapan v1 app backend source code"
-            >
-              <button
-                type="button"
-                className="items-center mt-3 border flex gap-x-3 text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
-              >
-                Backend Source Code
-                <BsArrowUpRight />
-              </button>
-            </Link>
-          </div>
-        </div>
-        <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700 ">
-          <Link
-            href={"https://taufiqidr.vercel.app/"}
+            href={"https://cuapan.vercel.app/"}
             target="_blank"
             aria-label="A link to cuapan v2 app"
           >
@@ -131,6 +89,62 @@ const Projects = () => {
             </button>
           </Link>
         </div>
+        <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700 ">
+          <Link
+            href={"https://cuapan.github.io/"}
+            target="_blank"
+            aria-label="A link to cuapan v1 app"
+          >
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:underline">
+              Cuapan V1 (Frontend)
+            </h5>
+          </Link>
+          <p className="mt-3 font-normal text-gray-700 dark:text-gray-400">
+            A Twitter clone app made with the MERN stack
+          </p>
+
+          <Link
+            href={"https://github.com/cuapan/cuapan.github.io"}
+            target="_blank"
+            aria-label="A link to cuapan v1 app frontend source code"
+          >
+            <button
+              type="button"
+              className="items-center mt-3 border flex gap-x-3 text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+            >
+              Source Code
+              <BsArrowUpRight />
+            </button>
+          </Link>
+        </div>
+        <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700 ">
+          <Link
+            href={"https://replit.com/@TaufiqIdrus/cuapan-backend"}
+            target="_blank"
+            aria-label="A link to cuapan v1 app"
+          >
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:underline">
+              Cuapan V1 (Backend)
+            </h5>
+          </Link>
+          <p className="mt-3 font-normal text-gray-700 dark:text-gray-400">
+            The backend server for Cuapan V1
+          </p>
+          <Link
+            href={"https://github.com/taufiqidr/cuapan-backend"}
+            target="_blank"
+            aria-label="A link to cuapan v1 app backend source code"
+          >
+            <button
+              type="button"
+              className="items-center mt-3 border flex gap-x-3 text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+            >
+              Source Code
+              <BsArrowUpRight />
+            </button>
+          </Link>
+        </div>
+
         <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700 ">
           <Link
             href={
